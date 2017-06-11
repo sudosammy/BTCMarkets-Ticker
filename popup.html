@@ -1,0 +1,53 @@
+<!--
+@sudosammy
+-->
+<!doctype html>
+<html>
+  <head>
+    <title>BTC Markets Ticker</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        width: 200px;
+      }
+      table {
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: left;
+      }
+      table td:nth-child(2) {
+        text-align: right;
+      }
+      #upd {
+        text-align: center;
+      	-webkit-box-shadow: inset 0px 1px 0px 0px #9acc85;
+      	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+      	background: -webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+      	background-color: #74ad5a;
+      	border: 1px solid #3b6e22;
+      	display: inline-block;
+      	cursor: pointer;
+      	color: #ffffff;
+      	padding: 4px;
+      	text-decoration: none;
+        margin-bottom: 5px;
+      }
+      #upd:hover {
+      	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
+      	background: -webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+      	background-color: #68a54b;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <table id="coins_table">
+      <tr>
+        <td id="timer"></td>
+        <td><button id="upd">Update</button></td>
+      </tr>
+    </table>
+    <div id="general"></div>
+  </body>
+</html>
