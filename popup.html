@@ -8,7 +8,7 @@
     <style>
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
+        font-size: 16px;
         width: 200px;
       }
       table {
@@ -20,23 +20,23 @@
         text-align: right;
       }
       #upd {
+        display: inline-block;
+        background-color: #5bc0de;
+        border-color: #5bc0de;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
+        -webkit-font-smoothing: antialiased;
+        padding: 6px 12px;
         text-align: center;
-      	-webkit-box-shadow: inset 0px 1px 0px 0px #9acc85;
-      	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
-      	background: -webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
-      	background-color: #74ad5a;
-      	border: 1px solid #3b6e22;
-      	display: inline-block;
-      	cursor: pointer;
-      	color: #ffffff;
-      	padding: 4px;
-      	text-decoration: none;
-        margin-bottom: 5px;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
       }
       #upd:hover {
-      	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
-      	background: -webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
-      	background-color: #68a54b;
+        background-color: #31b0d5;
+        border-color: #2aabd2;
       }
     </style>
     <script src="popup.js"></script>
@@ -44,8 +44,8 @@
   <body>
     <table id="coins_table">
       <tr>
-        <td id="timer"></td>
-        <td><button id="upd">Update</button></td>
+        <td></td>
+        <td><button id="upd">Refresh</button></td>
       </tr>
     </table>
     <div id="general"></div>
