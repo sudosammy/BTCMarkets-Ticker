@@ -3,7 +3,7 @@
 
   "name": "BTC Markets Ticker",
   "description": "This extension adds a ticker icon to Google Chrome so you can quickly see how various cryptocurrency markets are performing. It does not require an API key or access to your BTC Markets account.",
-  "version": "0.1",
+  "version": "0.9",
 
   "browser_action": {
     "default_icon": "images/btcmarkets.png",

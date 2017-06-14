@@ -13,41 +13,76 @@
       }
       table {
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         text-align: left;
+        border: 0;
       }
-      table td:nth-child(2) {
+      table td:nth-child(3) {
         text-align: right;
       }
-      #upd {
+      button {
         display: inline-block;
-        background-color: #5cb85c;
-        border-color: #5cb85c;
+        line-height: 1.5;
         border: 1px solid transparent;
         border-radius: 4px;
         color: #fff;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);
         -webkit-font-smoothing: antialiased;
-        padding: 6px 12px;
         text-align: center;
         white-space: nowrap;
         vertical-align: middle;
         cursor: pointer;
       }
+      #upd {
+        background-color: #5cb85c;
+        border-color: #5cb85c;
+        padding: 6px 12px;
+      }
       #upd:hover {
         background-color: #449d44;
         border-color: #419641;
+      }
+      #container {
+        /*text-align: center;*/
+        margin-bottom: 5px;
+      }
+      #container button {
+        display: none;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+        padding: 4px 6px;
+      }
+      #container button:hover {
+        background-color: #286090;
+        border-color: #204d74;
+      }
+      table img {
+        width: 10px;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+      #general {
+        text-align: center;
       }
     </style>
     <script src="popup.js"></script>
   </head>
   <body>
-    <table id="coins_table">
-      <tr>
-        <td></td>
-        <td><button id="upd">Refresh</button></td>
-      </tr>
+    <table id="coins-table">
+      <thead>
+        <tr>
+          <td></td>
+          <td></td>
+          <td><button id="upd">Refresh</button></td>
+        </tr>
+      </thead>
     </table>
+    <div id="container">
+      <button id="add-BTC">BTC</button>
+      <button id="add-LTC">LTC</button>
+      <button id="add-ETH">ETH</button>
+      <button id="add-ETC">ETC</button>
+    </div>
     <div id="general"></div>
   </body>
 </html>
