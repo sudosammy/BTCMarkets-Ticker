@@ -107,6 +107,12 @@ function checkStore(coinObj) {
     buildStore(); // storage not set, create default
 
   } else {
+    // Check storage is up-to-date with permittedCoins
+    for (var key in permittedCoins['activeCoins']) {
+      if (typeof coinObj['activeCoins'][key] == 'undefined') {
+        modCoin('+', key); // use modCoin to add new coin(s)
+      }
+    }
     populateTable(coinObj); // storage set, build the table with it
   }
 }
