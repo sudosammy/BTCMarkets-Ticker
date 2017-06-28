@@ -6,7 +6,8 @@ var permittedCoins = {
     'BTC': 1,
     'LTC': 1,
     'ETH': 1,
-    'ETC': 1
+    'ETC': 1,
+    'XRP': 1
   }
 };
 
