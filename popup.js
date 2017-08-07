@@ -4,6 +4,7 @@
 var permittedCoins = {
   'activeCoins': {
     'BTC': 1,
+    'BCH': 1,
     'LTC': 1,
     'ETH': 1,
     'ETC': 1,
@@ -60,7 +61,7 @@ function populateTable(coins) {
       var row = table.insertRow(rowCount);
 
       var c1 = row.insertCell(0);
-      c1.innerHTML = '<img src="images/close.png" />'; // set first column as close icon
+      c1.innerHTML = '<img src="images/close.png" title="Hide ' + key + '" />'; // set first column as close icon
       c1.id = 'remove-' + key; // set ID after being escaped
 
       var c2 = row.insertCell(1);

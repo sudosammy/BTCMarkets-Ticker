@@ -8,6 +8,11 @@ Chrome Store URL: <https://chrome.google.com/webstore/detail/btc-markets-ticker/
 
 # Changelog
 
+## v0.3
+- Added support for cryptocurrency "Bitcoin Cash"/BCH
+- Increased permissions for future extension improvements
+- Misc styling updates
+
 ## v0.2
 - Added support for cryptocurrency "Ripple"/XRP
 - Fixed bug where updating supported coins would result in unexpected behavior
