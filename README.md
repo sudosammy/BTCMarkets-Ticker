@@ -8,6 +8,9 @@ Chrome Store URL: <https://chrome.google.com/webstore/detail/btc-markets-ticker/
 
 # Changelog
 
+## v0.4
+- Added support for cryptocurrency OMG and POWR
+
 ## v0.3
 - Added support for cryptocurrency "Bitcoin Cash"/BCH
 - Increased permissions for future extension improvements

@@ -8,7 +8,9 @@ var permittedCoins = {
     'LTC': 1,
     'ETH': 1,
     'ETC': 1,
-    'XRP': 1
+    'XRP': 1,
+    'OMG': 1,
+    'POWR': 1
   }
 };
 
