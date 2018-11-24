@@ -3,7 +3,7 @@
 
   "name": "BTC Markets Ticker",
   "description": "Quickly see how various cryptocurrency markets are performing in AUD. This extension does not require an API key or configuration.",
-  "version": "0.4",
+  "version": "0.5",
 
   "browser_action": {
     "default_icon": "images/icon16.png",

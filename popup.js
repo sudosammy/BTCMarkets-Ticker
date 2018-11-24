@@ -4,7 +4,8 @@
 var permittedCoins = {
   'activeCoins': {
     'BTC': 1,
-    'BCH': 1,
+    'BCHABC': 1,
+    'BCHSV': 1,
     'LTC': 1,
     'ETH': 1,
     'ETC': 1,

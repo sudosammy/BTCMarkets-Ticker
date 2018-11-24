@@ -8,6 +8,9 @@ Chrome Store URL: <https://chrome.google.com/webstore/detail/btc-markets-ticker/
 
 # Changelog
 
+## v0.5
+- Updated to support BCH hard fork - BCHABC & BCHSV
+
 ## v0.4
 - Added support for cryptocurrency OMG and POWR
 
