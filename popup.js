@@ -168,8 +168,14 @@ function buttonListener(mod, coinName) {
 // Start here
 document.addEventListener('DOMContentLoaded', function() {
   // Load Chrome storage
-  getStore(checkStore);
-
+  try {
+    getStore(checkStore);
+  }
+  catch(err) {
+    writeWords('Extension error. Press the "delete" key to refresh.');
+    console.log(err);
+  }
+  
   // Refresh on 'Update' click
   document.getElementById('upd').addEventListener('click', function() {
     location.reload();
