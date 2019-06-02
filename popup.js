@@ -4,14 +4,17 @@
 var permittedCoins = {
   'activeCoins': {
     'BTC': 1,
-    'BCHABC': 1,
-    'BCHSV': 1,
     'LTC': 1,
     'ETH': 1,
     'ETC': 1,
     'XRP': 1,
     'OMG': 1,
-    'POWR': 1
+    'POWR': 1,
+    'BCHABC': 1,
+    'BCHSV': 1,
+    'BAT': 1,
+    'GNT': 1,
+    'XLM': 1
   }
 };
 

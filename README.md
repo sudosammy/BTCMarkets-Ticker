@@ -8,6 +8,9 @@ Chrome Store URL: <https://chrome.google.com/webstore/detail/btc-markets-ticker/
 
 # Changelog
 
+## v0.7
+- Added support for cryptocurrency BAT, GNT, and XLM
+
 ## v0.6
 - Bugfix in storage retrieval after updates
 
