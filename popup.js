@@ -10,11 +10,13 @@ var permittedCoins = {
     'XRP': 1,
     'OMG': 1,
     'POWR': 1,
-    'BCHABC': 1,
-    'BCHSV': 1,
+    'BCH': 1,
+    'BSV': 1,
     'BAT': 1,
     'GNT': 1,
-    'XLM': 1
+    'XLM': 1,
+    'ENJ': 1,
+    'LINK': 1
   }
 };
 
@@ -35,7 +37,8 @@ function apiCall(coinName) {
       return;
     }
     // Coin doesn't exist error
-    if (response.lastPrice == 'undefined') {
+    console.log(response.lastPrice);
+    if (response.lastPrice == 'undefined' || response.lastPrice == null) {
       writeWords(coinName + ' didn\'t return from API');
       return;
     }
@@ -175,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
     getStore(checkStore);
   }
   catch(err) {
-    writeWords('Extension error. Press the "delete" key to refresh.');
+    writeWords('Extension error. Press the "delete" key (Windows), or "Fn+delete" (Mac) to refresh.');
     console.log(err);
   }
   
