@@ -16,7 +16,11 @@ var permittedCoins = {
     'GNT': 1,
     'XLM': 1,
     'ENJ': 1,
-    'LINK': 1
+    'LINK': 1,
+    'COMP': 1,
+    'ALGO': 1,
+    'MCAU': 1,
+    'USDT': 1
   }
 };
 
